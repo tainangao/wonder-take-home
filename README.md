@@ -9,4 +9,5 @@ Please refer to `part3.sql`
 Here's the diagram I can come up with so far
 ![alt text]("https://github.com/tainangao/wonder-take-home/blob/master/EER%20diagram.png "Part 3. EER diagram")
 
+![Part 3. EER diagram](https://github.com/tainangao/wonder-take-home/blob/master/EER%20diagram.png)
 
