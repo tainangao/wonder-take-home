@@ -7,6 +7,6 @@ Please refer to `part3.sql`
 
 ### Part 2. Data Modeling
 Here's the diagram I can come up with so far
-![EER]("https://github.com/tainangao/wonder-take-home/blob/master/EER%20diagram.png "Logo Title Text 1")
+![alt text]("https://github.com/tainangao/wonder-take-home/blob/master/EER%20diagram.png "Part 3. EER diagram")
 
 
