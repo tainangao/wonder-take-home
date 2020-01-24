@@ -46,6 +46,29 @@ GROUP BY 1
 ORDER BY 2 DESC;
 
 
+-- what time of the day has more events happen
+SELECT EXTRACT(HOUR FROM event_creat_at) hour, COUNT(event_id)
+FROM event
+GROUP BY hour
+ORDER BY 2;
+
+
+-- who are the top performing analysts
+SELECT 
+	analyst_id, 
+	AVG(quality_score_sourcing) quality_score_sourcing, 
+	AVG(quality_score_writing) quality_score_writing,
+	COUNT(rquest_id) n_request
+FROM analyst a 
+LEFT JOIN analyst_has_request ar ON a.analyst_id = ar.analyst_analyst_id
+LEFT JOIN request r ON ar.request_request_id = r.request_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+
+
+
+
 
 
 
